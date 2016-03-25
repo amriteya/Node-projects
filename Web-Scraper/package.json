@@ -1,0 +1,12 @@
+{
+	"name": "Web-Scraper",
+	"version": "0.0.1",
+	"description": "Scrape the web",
+	"main": "server.js",
+	"author": "Amriteya",
+	"dependencies": {
+		"express": "latest",
+		"request": "latest",
+		"cheerio": "latest"
+	}
+}

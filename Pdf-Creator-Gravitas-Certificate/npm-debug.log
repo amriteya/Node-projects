@@ -1,0 +1,381 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 warn package.json node-authentication@ No description
+5 warn package.json node-authentication@ No repository field.
+6 warn package.json node-authentication@ No README data
+7 verbose install where, deps [ 'c:\\Users\\amriteya\\Desktop\\Practice\\Node.js\\Pdf-Creator-Gravitas-Certificate',
+7 verbose install   [ 'express', 'hummus' ] ]
+8 verbose install where, peers [ 'c:\\Users\\amriteya\\Desktop\\Practice\\Node.js\\Pdf-Creator-Gravitas-Certificate',
+8 verbose install   [] ]
+9 info preinstall node-authentication@
+10 silly cache add args [ 'express@~4.0.0', null ]
+11 verbose cache add spec express@~4.0.0
+12 silly cache add parsed spec { raw: 'express@~4.0.0',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'express',
+12 silly cache add   rawSpec: '~4.0.0',
+12 silly cache add   spec: '>=4.0.0 <4.1.0',
+12 silly cache add   type: 'range' }
+13 verbose addNamed express@>=4.0.0 <4.1.0
+14 silly addNamed semver.valid null
+15 silly addNamed semver.validRange >=4.0.0 <4.1.0
+16 silly addNameRange { name: 'express', range: '>=4.0.0 <4.1.0', hasData: false }
+17 silly mapToRegistry name express
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/express
+21 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+22 silly cache add args [ 'hummus@latest', null ]
+23 verbose cache add spec hummus@latest
+24 silly cache add parsed spec { raw: 'hummus@latest',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'hummus',
+24 silly cache add   rawSpec: 'latest',
+24 silly cache add   spec: 'latest',
+24 silly cache add   type: 'tag' }
+25 verbose addNamed hummus@latest
+26 silly addNamed semver.valid null
+27 silly addNamed semver.validRange null
+28 info addNameTag [ 'hummus', 'latest' ]
+29 silly mapToRegistry name hummus
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/hummus
+33 verbose addNameTag registry:https://registry.npmjs.org/hummus not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/hummus
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 11:08:29 PM
+37 verbose request id 7c85e7e09cde07bb
+38 http request GET https://registry.npmjs.org/hummus
+39 verbose request uri https://registry.npmjs.org/express
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 11:08:29 PM
+42 verbose etag "16ASV1CLT193UY742ZMRP0D9V"
+43 http request GET https://registry.npmjs.org/express
+44 http 200 https://registry.npmjs.org/hummus
+45 silly get cb [ 200,
+45 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+45 silly get     etag: '"EROURN7ZNT83CN2P55C9M3RJI"',
+45 silly get     'content-type': 'application/json',
+45 silly get     'cache-control': 'max-age=60',
+45 silly get     'content-length': '37467',
+45 silly get     'accept-ranges': 'bytes',
+45 silly get     date: 'Thu, 10 Sep 2015 17:38:33 GMT',
+45 silly get     via: '1.1 varnish',
+45 silly get     age: '0',
+45 silly get     connection: 'keep-alive',
+45 silly get     'x-served-by': 'cache-sin6922-SIN',
+45 silly get     'x-cache': 'MISS',
+45 silly get     'x-cache-hits': '0',
+45 silly get     'x-timer': 'S1441906712.642276,VS0,VE499',
+45 silly get     vary: 'Accept' } ]
+46 verbose get saving hummus to C:\Users\amriteya\AppData\Roaming\npm-cache\registry.npmjs.org\hummus\.cache.json
+47 silly addNameTag next cb for hummus with tag latest
+48 verbose addNamed hummus@1.0.41
+49 silly addNamed semver.valid 1.0.41
+50 silly addNamed semver.validRange 1.0.41
+51 silly mapToRegistry name hummus
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry uri https://registry.npmjs.org/hummus
+55 verbose addRemoteTarball https://registry.npmjs.org/hummus/-/hummus-1.0.41.tgz not in flight; adding
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/hummus/-/hummus-1.0.41.tgz',
+56 verbose addRemoteTarball   '46c1fc8493998f9fa98a141496a19e9631480cbd' ]
+57 info retry fetch attempt 1 at 11:08:31 PM
+58 info attempt registry request try #1 at 11:08:31 PM
+59 http fetch GET https://registry.npmjs.org/hummus/-/hummus-1.0.41.tgz
+60 http fetch 200 https://registry.npmjs.org/hummus/-/hummus-1.0.41.tgz
+61 http 200 https://registry.npmjs.org/express
+62 silly get cb [ 200,
+62 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+62 silly get     etag: '"76UZSMMQZ9O3UHHE262RSLJ9N"',
+62 silly get     'content-type': 'application/json',
+62 silly get     'cache-control': 'max-age=60',
+62 silly get     'content-length': '526767',
+62 silly get     'accept-ranges': 'bytes',
+62 silly get     date: 'Thu, 10 Sep 2015 17:38:32 GMT',
+62 silly get     via: '1.1 varnish',
+62 silly get     age: '32',
+62 silly get     connection: 'keep-alive',
+62 silly get     'x-served-by': 'cache-sin6921-SIN',
+62 silly get     'x-cache': 'HIT',
+62 silly get     'x-cache-hits': '4',
+62 silly get     'x-timer': 'S1441906712.626765,VS0,VE0',
+62 silly get     vary: 'Accept' } ]
+63 verbose get saving express to C:\Users\amriteya\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+64 silly addNameRange number 2 { name: 'express', range: '>=4.0.0 <4.1.0', hasData: true }
+65 silly addNameRange versions [ 'express',
+65 silly addNameRange   [ '0.14.0',
+65 silly addNameRange     '0.14.1',
+65 silly addNameRange     '1.0.0',
+65 silly addNameRange     '1.0.1',
+65 silly addNameRange     '1.0.2',
+65 silly addNameRange     '1.0.3',
+65 silly addNameRange     '1.0.4',
+65 silly addNameRange     '1.0.5',
+65 silly addNameRange     '1.0.6',
+65 silly addNameRange     '1.0.7',
+65 silly addNameRange     '1.0.8',
+65 silly addNameRange     '2.0.0',
+65 silly addNameRange     '2.1.0',
+65 silly addNameRange     '2.1.1',
+65 silly addNameRange     '2.2.0',
+65 silly addNameRange     '2.2.1',
+65 silly addNameRange     '2.2.2',
+65 silly addNameRange     '2.3.0',
+65 silly addNameRange     '2.3.1',
+65 silly addNameRange     '2.3.2',
+65 silly addNameRange     '2.3.3',
+65 silly addNameRange     '2.3.4',
+65 silly addNameRange     '2.3.5',
+65 silly addNameRange     '2.3.6',
+65 silly addNameRange     '2.3.7',
+65 silly addNameRange     '2.3.8',
+65 silly addNameRange     '2.3.9',
+65 silly addNameRange     '2.3.10',
+65 silly addNameRange     '2.3.11',
+65 silly addNameRange     '2.3.12',
+65 silly addNameRange     '2.4.0',
+65 silly addNameRange     '2.4.1',
+65 silly addNameRange     '2.4.2',
+65 silly addNameRange     '2.4.3',
+65 silly addNameRange     '2.4.4',
+65 silly addNameRange     '2.4.5',
+65 silly addNameRange     '2.4.6',
+65 silly addNameRange     '2.4.7',
+65 silly addNameRange     '2.5.0',
+65 silly addNameRange     '2.5.1',
+65 silly addNameRange     '2.5.2',
+65 silly addNameRange     '2.5.3',
+65 silly addNameRange     '2.5.4',
+65 silly addNameRange     '2.5.5',
+65 silly addNameRange     '2.5.6',
+65 silly addNameRange     '2.5.7',
+65 silly addNameRange     '2.5.8',
+65 silly addNameRange     '2.5.9',
+65 silly addNameRange     '2.5.10',
+65 silly addNameRange     '2.5.11',
+65 silly addNameRange     '3.0.0',
+65 silly addNameRange     '3.0.1',
+65 silly addNameRange     '3.0.2',
+65 silly addNameRange     '3.0.3',
+65 silly addNameRange     '3.0.4',
+65 silly addNameRange     '3.0.5',
+65 silly addNameRange     '3.0.6',
+65 silly addNameRange     '3.1.0',
+65 silly addNameRange     '3.1.1',
+65 silly addNameRange     '3.1.2',
+65 silly addNameRange     '3.2.0',
+65 silly addNameRange     '3.2.1',
+65 silly addNameRange     '3.2.2',
+65 silly addNameRange     '3.2.3',
+65 silly addNameRange     '3.2.4',
+65 silly addNameRange     '3.2.5',
+65 silly addNameRange     '3.2.6',
+65 silly addNameRange     '3.3.0',
+65 silly addNameRange     '3.3.1',
+65 silly addNameRange     '3.3.2',
+65 silly addNameRange     '3.3.3',
+65 silly addNameRange     '3.3.4',
+65 silly addNameRange     '3.3.5',
+65 silly addNameRange     '3.3.6',
+65 silly addNameRange     '1.0.0-beta',
+65 silly addNameRange     '1.0.0-beta2',
+65 silly addNameRange     '1.0.0-rc',
+65 silly addNameRange     '1.0.0-rc2',
+65 silly addNameRange     '1.0.0-rc3',
+65 silly addNameRange     '1.0.0-rc4',
+65 silly addNameRange     '2.0.0-beta',
+65 silly addNameRange     '2.0.0-beta2',
+65 silly addNameRange     '2.0.0-beta3',
+65 silly addNameRange     '2.0.0-rc',
+65 silly addNameRange     '2.0.0-rc2',
+65 silly addNameRange     '2.0.0-rc3',
+65 silly addNameRange     '3.0.0-alpha1',
+65 silly addNameRange     '3.0.0-alpha2',
+65 silly addNameRange     '3.0.0-alpha3',
+65 silly addNameRange     '3.0.0-alpha4',
+65 silly addNameRange     '3.0.0-alpha5',
+65 silly addNameRange     '3.0.0-beta1',
+65 silly addNameRange     '3.0.0-beta2',
+65 silly addNameRange     '3.0.0-beta3',
+65 silly addNameRange     '3.0.0-beta4',
+65 silly addNameRange     '3.0.0-beta6',
+65 silly addNameRange     '3.0.0-beta7',
+65 silly addNameRange     '3.0.0-rc1',
+65 silly addNameRange     '3.0.0-rc2',
+65 silly addNameRange     '3.0.0-rc3',
+65 silly addNameRange     '3.0.0-rc4',
+65 silly addNameRange     '3.0.0-rc5',
+65 silly addNameRange     '3.3.7',
+65 silly addNameRange     '3.3.8',
+65 silly addNameRange     '3.4.0',
+65 silly addNameRange     '3.4.1',
+65 silly addNameRange     '3.4.2',
+65 silly addNameRange     '3.4.3',
+65 silly addNameRange     '3.4.4',
+65 silly addNameRange     '3.4.5',
+65 silly addNameRange     '3.4.6',
+65 silly addNameRange     '3.4.7',
+65 silly addNameRange     '3.4.8',
+65 silly addNameRange     '4.0.0-rc1',
+65 silly addNameRange     '4.0.0-rc2',
+65 silly addNameRange     '3.5.0',
+65 silly addNameRange     '4.0.0-rc3',
+65 silly addNameRange     '4.0.0-rc4',
+65 silly addNameRange     '3.5.1',
+65 silly addNameRange     '4.0.0',
+65 silly addNameRange     '3.5.2',
+65 silly addNameRange     '4.1.0',
+65 silly addNameRange     '4.1.1',
+65 silly addNameRange     '3.5.3',
+65 silly addNameRange     '4.1.2',
+65 silly addNameRange     '3.6.0',
+65 silly addNameRange     '4.2.0',
+65 silly addNameRange     '3.7.0',
+65 silly addNameRange     '3.8.0',
+65 silly addNameRange     '4.3.0',
+65 silly addNameRange     '4.3.1',
+65 silly addNameRange     '3.8.1',
+65 silly addNameRange     '4.3.2',
+65 silly addNameRange     '3.9.0',
+65 silly addNameRange     '4.4.0',
+65 silly addNameRange     '4.4.1',
+65 silly addNameRange     '3.10.0',
+65 silly addNameRange     '3.10.1',
+65 silly addNameRange     '3.10.2',
+65 silly addNameRange     '3.10.3',
+65 silly addNameRange     '3.10.4',
+65 silly addNameRange     '4.4.2',
+65 silly addNameRange     '3.10.5',
+65 silly addNameRange     '4.4.3',
+65 silly addNameRange     '3.11.0',
+65 silly addNameRange     '4.4.4',
+65 silly addNameRange     '3.12.0',
+65 silly addNameRange     '3.12.1',
+65 silly addNameRange     '4.4.5',
+65 silly addNameRange     '3.13.0',
+65 silly addNameRange     '4.5.0',
+65 silly addNameRange     '4.5.1',
+65 silly addNameRange     '3.14.0',
+65 silly addNameRange     '4.6.0',
+65 silly addNameRange     '4.6.1',
+65 silly addNameRange     '3.15.0',
+65 silly addNameRange     '4.7.0',
+65 silly addNameRange     '3.15.1',
+65 silly addNameRange     '4.7.1',
+65 silly addNameRange     '3.15.2',
+65 silly addNameRange     '4.7.2',
+65 silly addNameRange     '4.7.3',
+65 silly addNameRange     '3.15.3',
+65 silly addNameRange     '4.7.4',
+65 silly addNameRange     '3.16.0',
+65 silly addNameRange     '4.8.0',
+65 silly addNameRange     '3.16.1',
+65 silly addNameRange     '4.8.1',
+65 silly addNameRange     '3.16.2',
+65 silly addNameRange     '4.8.2',
+65 silly addNameRange     '3.16.3',
+65 silly addNameRange     '3.16.4',
+65 silly addNameRange     '4.8.3',
+65 silly addNameRange     '3.16.5',
+65 silly addNameRange     '3.16.6',
+65 silly addNameRange     '4.8.4',
+65 silly addNameRange     '3.16.7',
+65 silly addNameRange     '4.8.5',
+65 silly addNameRange     '3.16.8',
+65 silly addNameRange     '4.8.6',
+65 silly addNameRange     '3.16.9',
+65 silly addNameRange     '4.8.7',
+65 silly addNameRange     '3.16.10',
+65 silly addNameRange     '4.8.8',
+65 silly addNameRange     '3.17.0',
+65 silly addNameRange     '3.17.1',
+65 silly addNameRange     '4.9.0',
+65 silly addNameRange     '3.17.2',
+65 silly addNameRange     '4.9.1',
+65 silly addNameRange     '4.9.2',
+65 silly addNameRange     '3.17.3',
+65 silly addNameRange     '4.9.3',
+65 silly addNameRange     '3.17.4',
+65 silly addNameRange     '4.9.4',
+65 silly addNameRange     '3.17.5',
+65 silly addNameRange     '4.9.5',
+65 silly addNameRange     '3.17.6',
+65 silly addNameRange     '3.17.7',
+65 silly addNameRange     '4.9.6',
+65 silly addNameRange     '4.9.7',
+65 silly addNameRange     '3.17.8',
+65 silly addNameRange     '4.9.8',
+65 silly addNameRange     '3.18.0',
+65 silly addNameRange     '3.18.1',
+65 silly addNameRange     '4.10.0',
+65 silly addNameRange     '3.18.2',
+65 silly addNameRange     '4.10.1',
+65 silly addNameRange     '5.0.0-alpha.1',
+65 silly addNameRange     '3.18.3',
+65 silly addNameRange     '4.10.2',
+65 silly addNameRange     '3.18.4',
+65 silly addNameRange     '4.10.3',
+65 silly addNameRange     '4.10.4',
+65 silly addNameRange     '4.10.5',
+65 silly addNameRange     '3.18.5',
+65 silly addNameRange     '3.18.6',
+65 silly addNameRange     '4.10.6',
+65 silly addNameRange     '4.10.7',
+65 silly addNameRange     '3.19.0',
+65 silly addNameRange     '4.10.8',
+65 silly addNameRange     '4.11.0',
+65 silly addNameRange     '3.19.1',
+65 silly addNameRange     '4.11.1',
+65 silly addNameRange     '3.19.2',
+65 silly addNameRange     '4.11.2',
+65 silly addNameRange     '3.20.0',
+65 silly addNameRange     '4.12.0',
+65 silly addNameRange     '3.20.1',
+65 silly addNameRange     '4.12.1',
+65 silly addNameRange     '4.12.2',
+65 silly addNameRange     '3.20.2',
+65 silly addNameRange     '4.12.3',
+65 silly addNameRange     '3.20.3',
+65 silly addNameRange     '4.12.4',
+65 silly addNameRange     '3.21.0',
+65 silly addNameRange     '4.13.0',
+65 silly addNameRange     '3.21.1',
+65 silly addNameRange     '4.13.1',
+65 silly addNameRange     '5.0.0-alpha.2',
+65 silly addNameRange     '3.21.2',
+65 silly addNameRange     '4.13.2',
+65 silly addNameRange     '4.13.3' ] ]
+66 verbose addNamed express@4.0.0
+67 silly addNamed semver.valid 4.0.0
+68 silly addNamed semver.validRange 4.0.0
+69 silly cache afterAdd express@4.0.0
+70 verbose afterAdd C:\Users\amriteya\AppData\Roaming\npm-cache\express\4.0.0\package\package.json not in flight; writing
+71 verbose afterAdd C:\Users\amriteya\AppData\Roaming\npm-cache\express\4.0.0\package\package.json written
+72 silly fetchAndShaCheck shasum 46c1fc8493998f9fa98a141496a19e9631480cbd
+73 verbose stack Error: shasum check failed for C:\Users\amriteya\AppData\Local\Temp\npm-27508-65a0b816\registry.npmjs.org\hummus\-\hummus-1.0.41.tgz
+73 verbose stack Expected: 46c1fc8493998f9fa98a141496a19e9631480cbd
+73 verbose stack Actual:   a1431129a612ded6157967f6446665872b1ad238
+73 verbose stack From:     https://registry.npmjs.org/hummus/-/hummus-1.0.41.tgz
+73 verbose stack     at c:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:38:8
+73 verbose stack     at ReadStream.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:85:7)
+73 verbose stack     at ReadStream.emit (events.js:129:20)
+73 verbose stack     at _stream_readable.js:908:16
+73 verbose stack     at process._tickCallback (node.js:355:11)
+74 verbose cwd c:\Users\amriteya\Desktop\Practice\Node.js\Pdf-Creator-Gravitas-Certificate
+75 error Windows_NT 6.3.9600
+76 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+77 error node v0.12.2
+78 error npm  v2.7.4
+79 error shasum check failed for C:\Users\amriteya\AppData\Local\Temp\npm-27508-65a0b816\registry.npmjs.org\hummus\-\hummus-1.0.41.tgz
+79 error Expected: 46c1fc8493998f9fa98a141496a19e9631480cbd
+79 error Actual:   a1431129a612ded6157967f6446665872b1ad238
+79 error From:     https://registry.npmjs.org/hummus/-/hummus-1.0.41.tgz
+80 error If you need help, you may report this error at:
+80 error     <https://github.com/npm/npm/issues>
+81 verbose exit [ 1, true ]
